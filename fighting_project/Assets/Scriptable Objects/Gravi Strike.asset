@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5be686a55a27fd499190e7928b5feb9, type: 3}
+  m_Name: Gravi Strike
+  m_EditorClassIdentifier: 
+  comboSeriesEnterIndex: 1
+  inputsList:
+  - comboInputs:
+    - attacks:
+        typesLists:
+        - types: 01000000
+      moves:
+        typesLists: []
+      holdMoves:
+        typesLists: []
+  - comboInputs:
+    - attacks:
+        typesLists:
+        - types: 01000000
+      moves:
+        typesLists: []
+      holdMoves:
+        typesLists: []
+  - comboInputs:
+    - attacks:
+        typesLists:
+        - types: 01000000
+      moves:
+        typesLists: []
+      holdMoves:
+        typesLists: []
+  attacks:
+  - {fileID: 11400000, guid: dcfca3000e792324e884fec453be70d6, type: 2}
+  - {fileID: 11400000, guid: cd00a11ee30345047b92c1a6ae4765a7, type: 2}
+  - {fileID: 11400000, guid: d27d62274a187874d8dce7cecbd48be5, type: 2}
+  OnInputted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnComboSeriesEnter:
+    m_PersistentCalls:
+      m_Calls: []

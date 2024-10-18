@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09532dcae4f9e724eab625f55f5eb5b1, type: 3}
+  m_Name: temp_Electric Strik 0
+  m_EditorClassIdentifier: 
+  attack: {fileID: 11400000, guid: fe2add8a8631df54489c3f0a16c19726, type: 2}
+  type: 0
+  triggerName: Electric Strike 0
+  framesSample: 13
+  numberOfFrames: 19
+  length: 1.5384616
+  shortLengthFrameNumber: 14
+  shortLength: 1.0769231
+  attackStartTime: 0.6923077
+  attackEndTime: 1.0769231
+  colliders:
+  - canHitLying: 0
+    attackForce: {x: 0, y: 0}
+    attackOffset: {x: 4.8, y: 3.6}
+    attackStartFrame: 9
+    attackEndFrame: 10
+    attackHeight: 11
+    attackWidth: 11
+  - canHitLying: 0
+    attackForce: {x: 0, y: 0}
+    attackOffset: {x: 4.8, y: 3.6}
+    attackStartFrame: 10
+    attackEndFrame: 11
+    attackHeight: 11
+    attackWidth: 11
+  - canHitLying: 0
+    attackForce: {x: 0, y: 0}
+    attackOffset: {x: 4.8, y: 3.6}
+    attackStartFrame: 11
+    attackEndFrame: 12
+    attackHeight: 11
+    attackWidth: 11
+  - canHitLying: 0
+    attackForce: {x: 0, y: 0}
+    attackOffset: {x: 4.8, y: 3.6}
+    attackStartFrame: 12
+    attackEndFrame: 13
+    attackHeight: 11
+    attackWidth: 11
+  - canHitLying: 0
+    attackForce: {x: 1, y: 1}
+    attackOffset: {x: 4.8, y: 3.6}
+    attackStartFrame: 13
+    attackEndFrame: 14
+    attackHeight: 11
+    attackWidth: 11
+  movement:
+    moveVelocity: {x: 9, y: 0}
+    startFrame: 9
+    endFrame: 14
+  windowTime: 0.4

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8535fa47f043444489ca33a8cc786b7e, type: 3}
+  m_Name: Electric Strike 1
+  m_EditorClassIdentifier: 
+  att: {fileID: 11400000, guid: dde6981559e1ed94b85a225991d69b4f, type: 2}
+  type: 0
+  triggerName: Electric Strike 1
+  framesSample: 30
+  numberOfFrames: 65
+  length: 2.2
+  shortLengthFrameNumber: 66
+  shortLength: 2.2
+  attackStartTime: 0.6333333
+  attackEndTime: 1.4
+  colliders:
+  - canHitLying: 0
+    attackForce: {x: 0, y: 0}
+    attackOffset: {x: 10, y: 0}
+    attackStartFrame: 19
+    attackEndFrame: 42
+    attackHeight: 10
+    attackWidth: 24
+  movement:
+    moveVelocity: {x: 0, y: 0}
+    startFrame: 0
+    endFrame: 0
+  windowTime: 0.4

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09532dcae4f9e724eab625f55f5eb5b1, type: 3}
+  m_Name: temp_Gravi Strike 1
+  m_EditorClassIdentifier: 
+  attack: {fileID: 11400000, guid: d27d62274a187874d8dce7cecbd48be5, type: 2}
+  type: 1
+  triggerName: Gravi Strike 1
+  framesSample: 10
+  numberOfFrames: 13
+  length: 1.4
+  shortLengthFrameNumber: 14
+  shortLength: 1
+  attackStartTime: 0.5
+  attackEndTime: 0.8
+  colliders:
+  - canHitLying: 0
+    attackForce: {x: 0, y: 0}
+    attackOffset: {x: 10, y: -2}
+    attackStartFrame: 5
+    attackEndFrame: 8
+    attackHeight: 12
+    attackWidth: 20
+  movement:
+    moveVelocity: {x: 0, y: 0}
+    startFrame: 0
+    endFrame: 0
+  windowTime: 0.4
